@@ -82,11 +82,13 @@ while True:
         break
     else:
         Art(text)
+        AnimeText(colorText('''[[yellow]]Not Interested.. Regenerate...
+'''))
         AnimeText(colorText('''[[blue]]Leave empty or enter 'y' to regenerate. [[red]] Enter 'n' to stop.
 '''))
         while True:
             Regenerate = input(
-                colorText("[[green]]Not Interested.. Regenerate. : >> "))
+                colorText("[[green]]Enter your text : >> "))
             if (Regenerate == 'n' or Regenerate == 'N'):
                 break
             elif (Regenerate == '' or Regenerate == 'y' or Regenerate == 'Y'):
