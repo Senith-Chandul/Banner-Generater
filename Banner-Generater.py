@@ -28,7 +28,7 @@ def colorText(text):
 
 def Anime(a):
     for char in a:
-        sleep(0.0000000000000000000000001)
+        sleep(0.005)
         print(char, end='')
         sys.stdout.flush()
 
@@ -66,7 +66,7 @@ Author = '''                [[red]]   Banner [[green]]Generater
 '''
 
 
-print(colorText(Banner))
+Anime(colorText(Banner))
 AnimeText(colorText(Author))
 
 
@@ -88,7 +88,7 @@ while True:
 '''))
         while True:
             Regenerate = input(
-                colorText("[[green]]Enter your text : >> "))
+                colorText("[[green]]Enter your choice : >> "))
             if (Regenerate == 'n' or Regenerate == 'N'):
                 break
             elif (Regenerate == '' or Regenerate == 'y' or Regenerate == 'Y'):
