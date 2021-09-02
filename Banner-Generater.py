@@ -44,23 +44,23 @@ os.system('clear')
 
 Banner = f'''
 
-	[[red]]  ## ###
-	[[red]] ##    #[[green]] ####### [[blue]] ##   ## [[yellow]]  ###### [[magenta]] #######[[cyan]]  ##   ##
-	[[red]] ###   [[green]]  ##   [[blue]]    ###  ##  [[yellow]]   ##     [[magenta]]  ##  [[cyan]]  ##   ##
-	[[red]]  #####  [[green]]###### [[blue]]  ## # ##  [[yellow]]   ##    [[magenta]]   ## [[cyan]]   #######
-    [[red]]        ####[[green]] ## [[blue]]      ##  ###  [[yellow]]   ##  [[magenta]]     ##   [[cyan]] ##   ##
-	[[red]] #    ## [[green]]####### [[blue]] ##   ##  [[yellow]] ######   [[magenta]]  ##   [[cyan]] ##   ##
-	[[red]] ### ##
+   [[red]]  ## ###
+   [[red]] ##    #[[green]] ####### [[blue]] ##   ## [[yellow]]  ###### [[magenta]] #######[[cyan]]  ##   ##
+   [[red]] ###   [[green]]  ##   [[blue]]    ###  ##  [[yellow]]   ##     [[magenta]]  ##  [[cyan]]  ##   ##
+   [[red]]  #####  [[green]]###### [[blue]]  ## # ##  [[yellow]]   ##    [[magenta]]   ## [[cyan]]   #######
+ [[red]]      ####[[green]] ## [[blue]]      ##  ###  [[yellow]]   ##  [[magenta]]     ##   [[cyan]] ##   ##
+   [[red]] #    ## [[green]]####### [[blue]] ##   ##  [[yellow]] ######   [[magenta]]  ##   [[cyan]] ##   ##
+   [[red]] ### ##
 
-        [[red]]     _____ [[green]] _     [[blue]]       [[yellow]]       [[magenta]]     _ [[cyan]]       [[Bright Red]] _
-        [[red]]    /  __ \[[green]]| |    [[blue]]       [[yellow]]       [[magenta]]    | |[[cyan]]       [[Bright Red]]| |
-        [[red]]    | /  \/[[green]]| |__  [[blue]]  __ _ [[yellow]] _ __  [[magenta]]  __| |[[cyan]] _   _ [[Bright Red]]| |
-        [[red]]    | |    [[green]]| '_ \ [[blue]] / _` |[[yellow]]| '_ \ [[magenta]] / _` |[[cyan]]| | | |[[Bright Red]]| |
-        [[red]]    | \__/\[[green]]| | | |[[blue]]| (_| |[[yellow]]| | | |[[magenta]]| (_| |[[cyan]]| |_| |[[Bright Red]]| |
-        [[red]]     \____/[[green]]|_| |_|[[blue]] \__,_|[[yellow]]|_| |_|[[magenta]] \__,_|[[cyan]] \__,_|[[Bright Red]]|_|
+   [[red]]     _____ [[green]] _     [[blue]]       [[yellow]]       [[magenta]]     _ [[cyan]]       [[Bright Red]] _
+   [[red]]    /  __ \[[green]]| |    [[blue]]       [[yellow]]       [[magenta]]    | |[[cyan]]       [[Bright Red]]| |
+   [[red]]    | /  \/[[green]]| |__  [[blue]]  __ _ [[yellow]] _ __  [[magenta]]  __| |[[cyan]] _   _ [[Bright Red]]| |
+   [[red]]    | |    [[green]]| '_ \ [[blue]] / _` |[[yellow]]| '_ \ [[magenta]] / _` |[[cyan]]| | | |[[Bright Red]]| |
+   [[red]]    | \__/\[[green]]| | | |[[blue]]| (_| |[[yellow]]| | | |[[magenta]]| (_| |[[cyan]]| |_| |[[Bright Red]]| |
+   [[red]]     \____/[[green]]|_| |_|[[blue]] \__,_|[[yellow]]|_| |_|[[magenta]] \__,_|[[cyan]] \__,_|[[Bright Red]]|_|
 
 '''
-Author = '''                      [[red]]   By :[[green]] Senith Chandul
+Author = '''                [[red]]   Banner [[green]]Generater
 
 
 '''
@@ -75,7 +75,7 @@ def Art(a):
 
 
 while True:
-    AnimeText(colorText('''[[blue]]Enter text which you want to Style. [[red]] Enter 'exit' to exit....
+    AnimeText(colorText('''[[blue]]Enter your Banner's text. [[red]] Enter 'exit' to exit..
 '''))
     text = input(colorText('''[[green]]Enter your text : >> '''))
     if(text == 'exit'):
