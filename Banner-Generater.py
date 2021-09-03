@@ -42,25 +42,19 @@ def AnimeText(a):
 
 os.system('clear')
 
-Banner = f'''
-
-   [[red]]  ## ###
-   [[red]] ##    #[[green]] ####### [[blue]] ##   ## [[yellow]]  ###### [[magenta]] #######[[cyan]]  ##   ##
-   [[red]] ###   [[green]]  ##   [[blue]]    ###  ##  [[yellow]]   ##     [[magenta]]  ##  [[cyan]]  ##   ##
-   [[red]]  #####  [[green]]###### [[blue]]  ## # ##  [[yellow]]   ##    [[magenta]]   ## [[cyan]]   #######
- [[red]]      ####[[green]] ## [[blue]]      ##  ###  [[yellow]]   ##  [[magenta]]     ##   [[cyan]] ##   ##
-   [[red]] #    ## [[green]]####### [[blue]] ##   ##  [[yellow]] ######   [[magenta]]  ##   [[cyan]] ##   ##
-   [[red]] ### ##
-
-   [[red]]     _____ [[green]] _     [[blue]]       [[yellow]]       [[magenta]]     _ [[cyan]]       [[Bright Red]] _
-   [[red]]    /  __ \[[green]]| |    [[blue]]       [[yellow]]       [[magenta]]    | |[[cyan]]       [[Bright Red]]| |
-   [[red]]    | /  \/[[green]]| |__  [[blue]]  __ _ [[yellow]] _ __  [[magenta]]  __| |[[cyan]] _   _ [[Bright Red]]| |
-   [[red]]    | |    [[green]]| '_ \ [[blue]] / _` |[[yellow]]| '_ \ [[magenta]] / _` |[[cyan]]| | | |[[Bright Red]]| |
-   [[red]]    | \__/\[[green]]| | | |[[blue]]| (_| |[[yellow]]| | | |[[magenta]]| (_| |[[cyan]]| |_| |[[Bright Red]]| |
-   [[red]]     \____/[[green]]|_| |_|[[blue]] \__,_|[[yellow]]|_| |_|[[magenta]] \__,_|[[cyan]] \__,_|[[Bright Red]]|_|
+Banner = '''
+                  [[red]] ___    [[blue]]            [[green]]        [[yellow]]     
+                  [[red]]| _ ) __ [[blue]]_  _ _   [[green]]_ _   __[[yellow]]_  _ _ 
+                  [[red]]| _ \/ _[[blue]]` || ' \ [[green]]| ' \ / [[yellow]]-_)| '_|
+                  [[red]]|___/\_[[blue]]_,_||_||[[green]]_||_||_|\_[[yellow]]__||_|  
+        [[red]]   ___         [[blue]]         [[green]]          [[yellow]] _          [[magenta]]
+        [[red]]  / __| ___ [[blue]] _ _   ___[[green]]  _ _  __ _[[yellow]] | |_  ___ [[magenta]] _ _ 
+        [[red]] | (_ |/ -[[blue]]_)| ' \ / [[green]]-_)| '_|/ _[[yellow]]` ||  _|/ [[magenta]]-_)| '_|
+        [[red]]  \___|\_[[blue]]__||_||_|\[[green]]___||_|  \_[[yellow]]_,_| \__|\[[magenta]]___||_|  
 
 '''
-Author = '''                [[red]]   Banner [[green]]Generater
+
+Author = '''              [[red]]   By :[[green]] Senith[[blue]] Chandul
 
 
 '''
@@ -71,7 +65,8 @@ AnimeText(colorText(Author))
 
 
 def Art(a):
-    tprint(a, font='rnd-medium')
+    ArtText = text2art(a, 'rnd-medium')
+    Anime(colored(ArtText, 'yellow'))
 
 
 while True:
