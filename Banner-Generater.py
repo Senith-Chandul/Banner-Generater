@@ -2,6 +2,7 @@ import os
 from art import *
 import sys
 from time import sleep
+from termcolor import colored
 
 COLORS = {
     "black": "\u001b[30;1m",
@@ -41,20 +42,19 @@ def AnimeText(a):
 
 
 os.system('clear')
-
 Banner = '''
-                  [[red]] ___    [[blue]]            [[green]]        [[yellow]]     
-                  [[red]]| _ ) __ [[blue]]_  _ _   [[green]]_ _   __[[yellow]]_  _ _ 
-                  [[red]]| _ \/ _[[blue]]` || ' \ [[green]]| ' \ / [[yellow]]-_)| '_|
-                  [[red]]|___/\_[[blue]]_,_||_||[[green]]_||_||_|\_[[yellow]]__||_|  
-        [[red]]   ___         [[blue]]         [[green]]          [[yellow]] _          [[magenta]]
-        [[red]]  / __| ___ [[blue]] _ _   ___[[green]]  _ _  __ _[[yellow]] | |_  ___ [[magenta]] _ _ 
-        [[red]] | (_ |/ -[[blue]]_)| ' \ / [[green]]-_)| '_|/ _[[yellow]]` ||  _|/ [[magenta]]-_)| '_|
-        [[red]]  \___|\_[[blue]]__||_||_|\[[green]]___||_|  \_[[yellow]]_,_| \__|\[[magenta]]___||_|  
+             [[red]] ___    [[blue]]            [[green]]        [[yellow]]
+             [[red]]| _ ) __ [[blue]]_  _ _   [[green]]_ _   __[[yellow]]_  _ _
+             [[red]]| _ \/ _[[blue]]` || ' \ [[green]]| ' \ / [[yellow]]-_)| '_|
+             [[red]]|___/\_[[blue]]_,_||_||[[green]]_||_||_|\_[[yellow]]__||_|
+    [[red]]   ___         [[blue]]         [[green]]          [[yellow]] _          [[magenta]]
+    [[red]]  / __| ___ [[blue]] _ _   ___[[green]]  _ _  __ _[[yellow]] | |_  ___ [[magenta]] _ _
+    [[red]] | (_ |/ -[[blue]]_)| ' \ / [[green]]-_)| '_|/ _[[yellow]]` ||  _|/ [[magenta]]-_)| '_|
+    [[red]]  \___|\_[[blue]]__||_||_|\[[green]]___||_|  \_[[yellow]]_,_| \__|\[[magenta]]___||_|
 
 '''
 
-Author = '''              [[red]]   By :[[green]] Senith[[blue]] Chandul
+Author = '''                [[red]]   By :[[green]] Senith[[blue]] Chandul
 
 
 '''
